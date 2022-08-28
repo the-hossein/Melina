@@ -1,0 +1,182 @@
+:root {
+  --mainFont: "IRANSansWeb";
+  --grayPen: #707070;
+  --darkPen: #292929;
+  --mainColor: #D25D6F;
+  --lightGray: #F8F8F8;
+  --mediumGray: #D9D9D9;
+  --lightPen: #999999;
+  --pinkColor: #F2D5C4;
+  --whitePen: #ffffff;
+  --redColor: #FF5151;
+  --greenColor: #7AD178;
+  --blueColor: #83B0EB;
+  --borderBottom: 2px solid #D6D6D6;
+  --mainBtnRadius: 8px;
+  --md-font: 12pt;
+  --smd-font: 11pt;
+  --lg-font: 14pt;
+  --xmd-font: 10pt;
+  --xs-font: 9pt;
+  --xl-font: 15pt;
+  --xxl-font: 20pt;
+  --ox-font: 36pt;
+  --xxxl-font: 28pt;
+  --title-Font: 46pt;
+  --dirRi: rtl;
+  --dirL: ltr;
+  --right: right;
+  --productRadius: 10px;
+  --mainBoldFont: "IRANSansWeb";
+  --border-Bottom: 1px solid var(--grayPen);
+  --lightBorder: 1px solid var(--mediumGray);
+}
+
+@font-face {
+  font-family: "RobotoLight";
+  src: url('../public/Assets/fonts/Roboto/Roboto-Light.ttf');
+  src: url("../public/Assets/fonts/Roboto/Roboto-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "RobotoRegular";
+  src: url('../public/Assets/fonts/Roboto/Roboto-Regular.ttf');
+  src: url("../public/Assets/fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url('../public/Assets/fonts/Roboto/Roboto-Bold.ttf');
+  src: url("../public/Assets/fonts/Roboto/Roboto-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'IRANSansWeb';
+  src: url('../public/Assets/fonts/iranSans/eot/IRANSansWeb.eot');
+  src: url('../public/Assets/fonts/iranSans/eot/IRANSansWeb.eot') format('embedded-opentype'), url('../public/Assets/fonts/iranSans/woff/IRANSansWeb.woff') format('woff'), url('../public/Assets/fonts/iranSans/ttf/IRANSansWeb.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--mainFont);
+  color: var(--darkPen);
+
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+
+}
+
+img {
+  object-fit: cover;
+}
+
+button {
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+}
+
+.headline {
+  /* direction: var(--dirRi); */
+  /* display: block; */
+  font-size: var(--xs-font);
+  color: var(--grayPen);
+}
+
+.scroller {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  height: 100vh;
+  display: flex;
+  overflow-y: scroll;
+}
+
+
+.scroller::-webkit-scrollbar {
+  width: 0px;
+}
+
+
+a:hover {
+  color: inherit;
+
+}
+
+* {
+  box-sizing: border-box;
+  font-family: var(--mainFont);
+
+}
+
+ul {
+  list-style-type: none;
+  padding: 0 !important;
+  margin: 0;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--mainColor);
+  border-radius: 8px;
+}
+
+.Toastify{
+  text-align: var(--right);
+}
+/* 
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+} */
+@media (max-width:992px) {
+  :root {
+    --ox-font: 30pt;
+  }
+
+}
+
+@media (max-width:768px) {
+  :root {
+    --ox-font: 26pt;
+    --lg-font: 12pt;
+    --xxxl-font: 26pt;
+
+  }
+
+}
+
+@media (max-width:400px) {
+  :root {
+    --ox-font: 24pt;
+    --xxxl-font: 22pt;
+
+
+  }
+
+}
