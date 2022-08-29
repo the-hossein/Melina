@@ -26,4 +26,5 @@ export const INCREASE = "api/v1/Basket/Incress";
 export const DECREASE = "api/v1/Basket/Decress";
 export const UPLOAD_IMAGE = "api/v1/Files/UploadImage";
 export const UPDATE_PROFILE = "api/v1/User/UpdateProfile";
+export const REMOVE_SAVE_PRODUCT = "api/Product/RemoveFromSaveProduct?SaveProductId="
 export const saveProduct = (userId, productId) => `api/Product/AddToSaveProduct?UserId=${userId}&ProductId=${productId}`;

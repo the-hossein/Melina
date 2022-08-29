@@ -41,14 +41,9 @@ const SliderSaveItem = ({ saveProduct }) => {
         modules={[Pagination]}
         className="swiper_save_product"
       >
-        {/* {saveProduct.map((item) => (
-          <SwiperSlide key={item.product.id}>
-            <SquareProduct data={item.product} />
-          </SwiperSlide>
-        ))} */}
         {saveProduct.map((item) => (
           <SwiperSlide key={item.product.id}>
-            <CardSaved data={item.product} />
+            <CardSaved data={item.product} saveId={item.id} />
           </SwiperSlide>
         ))}
       </Swiper>
