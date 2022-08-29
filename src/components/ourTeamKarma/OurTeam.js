@@ -9,6 +9,8 @@ import erfan from "../../../public/Assets/images/karmaTeam/Erfan.jpg";
 import milad from "../../../public/Assets/images/karmaTeam/Milad.jpg";
 import sina from "../../../public/Assets/images/karmaTeam/Sina.jpg";
 import parmida from "../../../public/Assets/images/karmaTeam/Parmida.jpg";
+import fatemeh from "../../../public/Assets/images/karmaTeam/Fatemeh.jpg";
+import fazeleh from "../../../public/Assets/images/karmaTeam/Fazeleh.jpg";
 import CardProfile from "./cardProfile/CardProfile";
 
 const karmaTeam = [
@@ -26,8 +28,8 @@ const karmaTeam = [
   {
     name: "ميلاد پارسا",
     nameEn: "Milad Parsa",
-    title: "مدیر اجرایی",
-    titleEn: "Administration Manager",
+    title: "مدیر ارشد فناوری",
+    titleEn: "CTO, Software Engineer",
     image: milad,
     description:
       "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.",
@@ -68,10 +70,21 @@ const karmaTeam = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
+    name: "فاطمه برى داريان",
+    nameEn: "Fateme Beri Darian",
+    title: "برنامه نویس",
+    titleEn: "Programmer",
+    image: fatemeh,
+    description:
+      "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.",
+    descriptionEn:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  },
+  {
     name: "پارميدا پهلوان",
     nameEn: "Parmida Pahlan",
-    title: "گرافیست",
-    titleEn: "Graphic Designer",
+    title: "مدیر آتلیه",
+    titleEn: "Atelier Manager",
     image: parmida,
     description:
       "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.",
@@ -80,33 +93,11 @@ const karmaTeam = [
   },
 
   {
-    name: "عرفان حسینی",
-    nameEn: "Erfan Hosieni",
-    title: "برنامه نویس",
-    titleEn: "Programmer",
-    image: erfan,
-    description:
-      "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.",
-    descriptionEn:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  },
-  {
-    name: "علی کلایی",
-    nameEn: "Ali Kalai",
-    title: "امنیت سرور",
-    titleEn: "Server security",
-    image: ali,
-    description:
-      "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.",
-    descriptionEn:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  },
-  {
-    name: "پارميدا پهلوان",
-    nameEn: "Parmida Pahlan",
-    title: "گرافیست",
-    titleEn: "Graphic Designer",
-    image: parmida,
+    name: "فاضله زنگنه",
+    nameEn: "Fazeleh Zanganeh",
+    title: "كارشناس توليد محتوا",
+    titleEn: "Content production expert",
+    image: fazeleh,
     description:
       "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.",
     descriptionEn:
